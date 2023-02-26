@@ -116,7 +116,7 @@ function DeleteRecord(id){
 
 									<form method="get" action="EditStudent">
 		
-										<div class="form-group">
+										<div class="form-group" style="display: none">
 											<label for="name">ID</label> <input type="text"
 								name="id" value="<%=s.getId()%>">
 
